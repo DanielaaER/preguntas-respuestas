@@ -11,11 +11,16 @@
 #### Pasos a Seguir:
 
 #### 1. Clonar el Repositorio:
-Primero, clona el repositorio en tu máquina local.
+Primero, ve a la página del repositorio en GitHub: https://github.com/DanielaaER/preguntas-respuestas.
+
+Luego, haz clic en el botón "Fork" en la parte superior derecha de la página para crear una copia del repositorio en tu cuenta de GitHub.
+
+Una vez que hayas hecho el fork del repositorio, clona tu propia copia en tu máquina local. Puedes encontrar la URL de clonación en la página de tu fork.
 ```bash
-git clone https://github.com/DanielaaER/preguntas-respuestas.git
+git clone https://github.com/TU-USUARIO/preguntas-respuestas.git
 cd preguntas-respuestas
 ```
+Asegúrate de reemplazar TU-USUARIO con tu nombre de usuario de GitHub.
 
 #### 2. Explorar el Repositorio:
 Navega por las ramas disponibles para encontrar las preguntas. Usa el comando:
@@ -44,6 +49,20 @@ Cada respuesta contiene una letra. Anota las letras de cada respuesta para forma
 
 #### 6. Formar la Frase Final:
 Une las letras encontradas en el orden correcto para formar la frase secreta.
-y anotalas en el archivo "respuestas.txt", el cual encontraras en la rama respuestas, no olvides crear tu propia rama a base de esta titulada "respuestas-<tu_nombre>" y haz un push al repositorio
+y anotalas en el archivo "respuestas.txt", el cual encontraras en la rama respuestas, no olvides crear tu propia rama a base de esta titulada "respuestas-<tu_nombre>".
+
+Una vez que hayas realizado los cambios, añade y confirma los archivos modificados:
+```bash
+git add .
+git commit -m "Descripción de los cambios realizados"
+```
+Luego, sube tus cambios a tu fork en GitHub:
+```bash
+git push origin main
+```
+
+#### 7. Crea un Pull Request:
+Ve a la página de tu fork en GitHub y haz clic en "Compare & pull request" para enviar una solicitud de pull request desde tu fork a nuestro repositorio original.
 
 
+### MUCHA SUERTE 🐈
