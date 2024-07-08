@@ -44,6 +44,6 @@ Cada respuesta contiene una letra. Anota las letras de cada respuesta para forma
 
 #### 6. Formar la Frase Final:
 Une las letras encontradas en el orden correcto para formar la frase secreta.
-y anotalas en el archivo "respuestas.txt", el cual encontraras en la rama respuestas, no olvides crear tu propia rama a base de esta titulada "respuestas-<tu nombre>" y haz un push al repositorio
+y anotalas en el archivo "respuestas.txt", el cual encontraras en la rama respuestas, no olvides crear tu propia rama a base de esta titulada "respuestas-<tu_nombre>" y haz un push al repositorio
 
 
